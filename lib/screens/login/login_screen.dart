@@ -74,7 +74,7 @@ class LoginScreen extends StatelessWidget {
 
                   // email input
                   CustomTextTitle(
-                    text: 'E-meow',
+                    text: 'E-mail',
                     textCenter: false,
                     padding: const EdgeInsets.only(bottom: 8),
                     fontSize: 16,
@@ -88,7 +88,7 @@ class LoginScreen extends StatelessWidget {
 
                   // password input
                   CustomTextTitle(
-                    text: 'Pussword',
+                    text: 'Password',
                     textCenter: false,
                     padding: const EdgeInsets.only(bottom: 8),
                     fontSize: 16,
@@ -214,7 +214,7 @@ class _LoginButton extends StatelessWidget {
         return state.status == FormzStatus.submissionInProgress
             ? const CircularProgressIndicator()
             : ProfilesElevatedButton(
-                text: 'Meowgin',
+                text: 'Login',
                 color: Theme.of(context).primaryColor,
                 textColor: Colors.white,
                 onPressed: () {
