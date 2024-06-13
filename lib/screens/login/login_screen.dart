@@ -74,7 +74,7 @@ class LoginScreen extends StatelessWidget {
 
                   // email input
                   CustomTextTitle(
-                    text: 'E-mail',
+                    text: 'e-mail',
                     textCenter: false,
                     padding: const EdgeInsets.only(bottom: 8),
                     fontSize: 16,
