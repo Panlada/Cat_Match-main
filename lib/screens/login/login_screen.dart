@@ -63,7 +63,7 @@ class LoginScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 20),
                   Text(
-                    'Cat Matching',
+                    'Cat Match',
                     style: Theme.of(context).textTheme.displayMedium!.copyWith(
                           color: Theme.of(context).primaryColor,
                           fontSize: 20,
